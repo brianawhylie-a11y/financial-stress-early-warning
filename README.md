@@ -22,7 +22,7 @@ Can a combination of market and economic indicators identify elevated financial 
 ## Tools and Technologies
 
 * SQL
-* PostgreSQL
+* SQLite
 * Python
 * pandas
 * NumPy
@@ -125,8 +125,35 @@ financial-stress-early-warning/
 
 ## Project Status
 
-This project is currently under development.
+Version 1.0 is complete. The project includes an end-to-end SQL and Python research pipeline, a chronological machine-learning evaluation, exported model results, and portfolio-ready visualizations.
 
+## Key Results
+
+- Analyzed financial and economic data from January 2007 through August 2026.
+- Used 3,942 chronological observations for training and 986 observations for out-of-sample testing.
+- Developed a class-weighted logistic-regression early-warning model.
+- Achieved an out-of-sample ROC-AUC score of 0.625.
+- Used a probability threshold of 0.509 to classify elevated market-stress risk.
+- Delayed monthly economic indicators to approximate their publication timing and reduce look-ahead bias.
+- ## Project Visualizations
+
+### Market Price and Future Stress Periods
+
+![SPY market stress labels](images/spy_stress_labels.png)
+
+### Rolling Market Volatility
+
+![Rolling volatility](images/rolling_volatility.png)
+
+### Model Evaluation
+
+![ROC curve](images/roc_curve.png)
+
+![Confusion matrix](images/confusion_matrix.png)
+
+### Model Feature Relationships
+
+![Feature coefficients](images/feature_coefficients.png)
 ## Author
 
 Briana Love Whylie
