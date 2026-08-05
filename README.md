@@ -135,7 +135,8 @@ Version 1.0 is complete. The project includes an end-to-end SQL and Python resea
 - Achieved an out-of-sample ROC-AUC score of 0.625.
 - Used a probability threshold of 0.509 to classify elevated market-stress risk.
 - Delayed monthly economic indicators to approximate their publication timing and reduce look-ahead bias.
-- ## Project Visualizations
+
+## Project Visualizations
 
 ### Market Price and Future Stress Periods
 
