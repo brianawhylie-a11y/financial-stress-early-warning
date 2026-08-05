@@ -1,0 +1,7 @@
+check,result
+Duplicate market ticker-date rows,0
+Market rows with missing adjusted close,6098
+Market rows with negative volume,0
+Market rows where high is below low,0
+Duplicate FRED dates,0
+FRED columns with at least one non-null value,6

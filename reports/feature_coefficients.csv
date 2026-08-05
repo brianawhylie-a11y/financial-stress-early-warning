@@ -1,0 +1,19 @@
+feature,coefficient,absolute_coefficient,relationship
+momentum_20d,0.797231880935029,0.797231880935029,Higher value associated with greater modeled stress risk
+federal_funds_rate_lagged,-0.7511550283816172,0.7511550283816172,Higher value associated with lower modeled stress risk
+rolling_volatility_20d,0.7115721697374757,0.7115721697374757,Higher value associated with greater modeled stress risk
+price_vs_ma20,-0.664209228625651,0.664209228625651,Higher value associated with lower modeled stress risk
+treasury_10y,0.6516597543148797,0.6516597543148797,Higher value associated with greater modeled stress risk
+treasury_2y,0.46371353619624406,0.46371353619624406,Higher value associated with greater modeled stress risk
+inflation_yoy_lagged,0.4354856160138716,0.4354856160138716,Higher value associated with greater modeled stress risk
+sector_dispersion_20d,0.39818393297443805,0.39818393297443805,Higher value associated with greater modeled stress risk
+unemployment_rate_lagged,-0.39610982133153494,0.39610982133153494,Higher value associated with lower modeled stress risk
+small_cap_relative_return_20d,-0.3304117322928684,0.3304117322928684,Higher value associated with lower modeled stress risk
+volume_vs_average_20d,0.299611279565596,0.299611279565596,Higher value associated with greater modeled stress risk
+return_5d,0.13396327883919115,0.13396327883919115,Higher value associated with greater modeled stress risk
+momentum_60d,0.12869624778125496,0.12869624778125496,Higher value associated with greater modeled stress risk
+volume_zscore_20d,-0.1272069784395558,0.1272069784395558,Higher value associated with lower modeled stress risk
+yield_curve_10y_2y,0.10394824222711872,0.10394824222711872,Higher value associated with greater modeled stress risk
+drawdown_252d,-0.04312582654000104,0.04312582654000104,Higher value associated with lower modeled stress risk
+sector_breadth_20d,-0.037779652045634736,0.037779652045634736,Higher value associated with lower modeled stress risk
+vix,0.014492057326543647,0.014492057326543647,Higher value associated with greater modeled stress risk
